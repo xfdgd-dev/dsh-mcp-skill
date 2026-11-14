@@ -1,4 +1,4 @@
-# dsh-mcp-setup
+# dsh-mcp-skill
 
 给 [DeepSeek Harness](https://github.com/deepseek-ai)（DSH）接入 MCP 服务器的 skill。
 
@@ -18,7 +18,7 @@ DSH 接 MCP 的配置只有 20 行 YAML，但里面埋了几个**静默失败**�
 skill 就是两个文件，放到 DSH 的 skill 目录即可（Windows 默认 `%USERPROFILE%\.dsh\skills`）：
 
 ```powershell
-git clone https://github.com/<you>/dsh-mcp-setup "$env:USERPROFILE\.dsh\skills\mcp-setup"
+git clone https://github.com/xfdgd-dev/dsh-mcp-skill "$env:USERPROFILE\.dsh\skills\mcp-setup"
 ```
 
 或者用自带的安装脚本（不用 git）：
