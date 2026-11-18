@@ -12,6 +12,7 @@ All notable changes to this skill are documented here.
 - **scripts/stdio_bridge_template.py** —— stdio 桥接器骨架，带「延迟连接后端」和「强制 UTF-8」两处关键实现
 - **scripts/asar_extract.py** —— Electron `app.asar` 解包器，用来查 DSH 未写进文档的插件 schema
 - **install.ps1** —— 一步装进 `%DSH_HOME%\skills`
+- **docs/hero.png** —— README 首屏图（一行安装 + 三条卖点 + 实测命令）
 
 ### 背景
 
